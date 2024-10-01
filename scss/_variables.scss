@@ -1,0 +1,24 @@
+// Font Variables
+$font-primary: 'Arial, sans-serif';
+$font-secondary: 'Gergia, serif';
+
+//Size Variables
+$base-font-size: 16px;
+$heading-font-size: 2rem;
+
+//Spacing
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 2rem;
+
+$breakpoint-md: 768;
+
+@media (max-width: $breakpoint-md) {
+    .container {
+        padding: $spacing-small;
+    }
+
+    header {
+        text-align: center;
+    }
+}

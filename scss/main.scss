@@ -1,9 +1,44 @@
 // main.scss
+@import 'normalize';
+@import 'colors';
+@import 'variables';
 
-$primary-font-color: #575757;
 
 body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+  font-family: $font-primary;
+  background-color: $dark-background;
   color: $primary-font-color;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: $secondary-font-color;
+  padding: $spacing-medium;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  paddings: $spacing-large;
+}
+
+footer {
+  background-color: $darker-background;
+  padding: $spacing-small;
+  text-align: center;
+}
+
+.btn {
+  background-color: $secondary-font-color;
+  color: white;
+  padding: $spacing-small $spacing-medium;
+  border: none;
+  cursor: pointer;
+}
+
+&:hover {
+  background-color: darken($secondary-font-color, 10%);
+  }
+  
+
