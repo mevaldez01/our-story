@@ -2,6 +2,10 @@
 @import 'normalize';
 @import 'colors';
 @import 'variables';
+@import 'header';
+@import 'our-story';
+@import 'menu';
+@import 'footer';
 
 
 body {
@@ -20,7 +24,7 @@ header {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  paddings: $spacing-large;
+  padding: 0 $spacing-medium;
 }
 
 footer {
